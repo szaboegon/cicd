@@ -70,6 +70,6 @@ int getoperand(const char *which)
 {
     int operand = 0;
     printf("Operand %s: ", which);
-    scanf(" %d", &operand);
+    (void)scanf(" %d", &operand);
     return operand;
 }
